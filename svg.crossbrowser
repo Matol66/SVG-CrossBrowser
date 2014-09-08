@@ -1,6 +1,6 @@
 	/******************** SVG CrossBrowser FIX by m66design */
 $( document ).ready(function() {	
-	$('svg.icon').each(function(){
+	$('svg').each(function(){
 		var viewbox = this.getAttribute('viewBox');
 		var elwidth = $(this).width();
 		var viewboxArr = viewbox.split(" ");
